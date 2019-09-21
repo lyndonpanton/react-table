@@ -11,3 +11,8 @@ gulp.task("sass", function() {
 
 // default tasks
 gulp.task("default", gulp.series(["sass"]));
+
+// watch files
+gulp.task("watch", async function() {
+	gulp.watch("src/*.sass", gulp.series("sass"));
+});
