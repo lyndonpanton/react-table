@@ -1,3 +1,19 @@
+# React Table
+
+## How To Open
+> 1. Go to the application's folder in a terminal
+> 2. Start a server in that directory
+> 3. Go to page in browser
+
+## User Stories
+> 1. Created react application using _create-react-app_
+> 2. Created smaller reusable components
+> 3. Rendered application
+
+## Requirements
+> 1. This application requires a browser to run
+> 2. The browser must have JavaScript available and enabled
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
