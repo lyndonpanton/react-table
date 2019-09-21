@@ -8,3 +8,6 @@ gulp.task("sass", function() {
 		.on("error", sass.logError)
 		.pipe(gulp.dest("src"));
 });
+
+// default tasks
+gulp.task("default", gulp.series(["sass"]));
