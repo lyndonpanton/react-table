@@ -1,6 +1,6 @@
 # React Table
 
-## How To Open
+## How To Open
 > 1. Go to the application's folder in a terminal
 > 2. Start a server in that directory
 > 3. Go to page in browser
