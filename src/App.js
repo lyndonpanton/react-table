@@ -47,6 +47,20 @@ class App extends React.Component {
 		]
 	};
 
+	removePerson(index) {
+		// get people
+		const people = this.state.peopleData;
+
+		// update the state of the component
+		this.setState({
+			// filter through data
+			peopleData: people.filter(function(person, personIndex) {
+				// only add people who do not have index of person to be deleted
+				return personIndex !== index;
+			})
+		});
+	};
+
 	render() {
 		const peopleData = [
 			{
@@ -97,7 +111,7 @@ class App extends React.Component {
 				<Table peopleData={peopleData} />
 			</div>
 		);
-	}
+	};
 }
 
 export default App;
