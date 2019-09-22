@@ -5,10 +5,12 @@ import TableFoot from "./TableFoot";
 
 class Table extends React.Component {
 	render() {
+		const peopleData = this.props;
+
 		return (
 			<table>
 				<TableHead />
-				<TableBody />
+				<TableBody peopleData={peopleData} />
 				<TableFoot />
 			</table>
 		);
