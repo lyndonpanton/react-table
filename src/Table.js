@@ -6,6 +6,7 @@ import TableFoot from "./TableFoot";
 class Table extends React.Component {
 	render() {
 		const peopleData = this.props.peopleData;
+		const removePerson = this.props.removePerson;
 
 		return (
 			<table>
