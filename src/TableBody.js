@@ -8,7 +8,9 @@ const TableBody = (props) => {
 				<td>{row.age}</td>
 				<td>{row.job}</td>
 				<td>
-					<button>Delete</button>
+					<button onClick={function() {
+						props.removePerson(index);
+					}}>Delete</button>
 				</td>
 			</tr>
 		);
