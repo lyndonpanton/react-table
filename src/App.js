@@ -1,5 +1,6 @@
 import React from "react";
-import Table from "./Table";
+// import Table from "./Table";
+import Table from "./Table2";
 
 class App extends React.Component {
 	state = {
@@ -47,7 +48,7 @@ class App extends React.Component {
 		]
 	};
 
-	removePerson(index) {
+	removePerson = (index) => {
 		// get people
 		const people = this.state.peopleData;
 
