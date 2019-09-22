@@ -67,7 +67,7 @@ class App extends React.Component {
 		return (
 			<div className="container">
 				<h1>Hello React</h1>
-				<Table peopleData={peopleData} />
+				<Table peopleData={peopleData} removePerson={this.removePerson} />
 			</div>
 		);
 	};
