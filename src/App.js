@@ -1,6 +1,5 @@
 import React from "react";
-// import Table from "./Table";
-import Table from "./Table2";
+import Table from "./Table";
 
 class App extends React.Component {
 	state = {
