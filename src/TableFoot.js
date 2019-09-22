@@ -5,7 +5,7 @@ class TableFoot extends React.Component {
 		return (
 			<tfoot>
 				<tr>
-					<td colspan="3">This table is rendered using ReactJS</td>
+					<td colSpan="3">This table is rendered using ReactJS</td>
 				</tr>
 			</tfoot>
 		);
