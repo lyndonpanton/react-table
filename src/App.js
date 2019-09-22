@@ -2,8 +2,10 @@ import React from "react";
 import Table from "./Table";
 
 class App extends React.Component {
+	state = {};
+	
 	render() {
-		const people = [
+		const peopleData = [
 			{
 				"name": "Alice",
 				"age": 20,
@@ -45,11 +47,11 @@ class App extends React.Component {
 				"job": "Hair Stylist"
 			}
 		];
-		
+
 		return (
 			<div className="container">
 				<h1>Hello React</h1>
-				<Table peopleData={people} />
+				<Table peopleData={peopleData} />
 			</div>
 		);
 	}
