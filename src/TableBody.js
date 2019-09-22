@@ -8,6 +8,9 @@ class TableBody extends React.Component {
 					<td>{row.name}</td>
 					<td>{row.age}</td>
 					<td>{row.job}</td>
+					<td>
+						<button>Delete</button>
+					</td>
 				</tr>
 			);
 		});
