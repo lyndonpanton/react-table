@@ -5,7 +5,7 @@ import TableFoot from "./TableFoot";
 
 class Table extends React.Component {
 	render() {
-		const peopleData = this.props;
+		const peopleData = this.props.peopleData;
 
 		return (
 			<table>
