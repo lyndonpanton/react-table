@@ -49,7 +49,7 @@ class App extends React.Component {
 		return (
 			<div className="container">
 				<h1>Hello React</h1>
-				<Table />
+				<Table peopleData={people} />
 			</div>
 		);
 	}
