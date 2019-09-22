@@ -8,6 +8,7 @@ class TableHead extends React.Component {
 					<th>Name</th>
 					<th>Age</th>
 					<th>Job</th>
+					<th>Remove</th>
 				</tr>
 			</thead>
 		);
