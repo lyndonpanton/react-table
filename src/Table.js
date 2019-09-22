@@ -11,7 +11,7 @@ class Table extends React.Component {
 		return (
 			<table>
 				<TableHead />
-				<TableBody peopleData={peopleData} />
+				<TableBody peopleData={peopleData} removePerson={removePerson} />
 				<TableFoot />
 			</table>
 		);
